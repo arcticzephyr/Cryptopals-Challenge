@@ -1,2 +1,19 @@
-# Cryptopals-Challenge
-My solutions to the Cryptopals cryptography challenges — focused on building a deep, practical understanding of applied cryptography from first principles. All code written from scratch, no libraries unless explicitly allowed. Work in progress.
+# 🔐 Cryptopals Crypto Challenges
+
+My C implementations of the Cryptopals cryptography challenges. This project is about learning how real cryptographic systems work by building everything from the ground up — no crypto libraries, no shortcuts, just raw bytes and bitwise operations.
+
+➡️ Based on the challenges at [cryptopals.com](https://cryptopals.com/)
+
+## ✅ Progress
+
+### Set 1: Basics
+- [x] Convert hex to base64
+- [ ] Fixed XOR
+- [ ] Single-byte XOR cipher
+- [ ] Detect single-character XOR
+- [ ] Repeating-key XOR
+- [ ] Break repeating-key XOR
+- [ ] Detect AES in ECB mode
+
+
+
