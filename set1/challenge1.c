@@ -48,10 +48,6 @@ char * hex2base64(char * input) {
     char * result = (char *) malloc(2 * (len / 3) + 1); // 3m bytes -> 24m bits -> 4m base64 chars
 
     for (int i = 0; i < len / 6; i++) {
-        //result[4 * i] = lookup[bytes[3 * i] >> 2];
-        //result[4 * i + 1] = lookup[((bytes[3 * i] << 6) >> 2) | (bytes[3 * i + 1] >> 4)]; 
-        //result[4 * i + 2] = lookup[(bytes[3 * i + 1] << 2) | (bytes[3 * i + 2] >> 6)];
-        //result[4 * i + 3] = lookup[(bytes[3 * i + 2] << 2) >> 2];
 
         result[4 * i]     = lookup[(bytes[3 * i] >> 2) & 0x3F];
         result[4 * i + 1] = lookup[((bytes[3 * i] & 0x03) << 4) | ((bytes[3 * i + 1] >> 4) & 0x0F)];
