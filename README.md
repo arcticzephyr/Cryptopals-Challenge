@@ -8,12 +8,12 @@ My C implementations of the Cryptopals cryptography challenges. This project is 
 
 ### Set 1: Basics
 - [x] Convert hex to base64
-- [ ] Fixed XOR
-- [ ] Single-byte XOR cipher
-- [ ] Detect single-character XOR
-- [ ] Repeating-key XOR
-- [ ] Break repeating-key XOR
-- [ ] Detect AES in ECB mode
+- [x] Fixed XOR
+- [x] Single-byte XOR cipher
+- [x] Detect single-character XOR
+- [x] Repeating-key XOR
+- [x] Break repeating-key XOR
+- [x] Detect AES in ECB mode
 
 
 
